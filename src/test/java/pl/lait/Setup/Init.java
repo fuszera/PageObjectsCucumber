@@ -9,7 +9,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Init {
 	
 	
+	//static FirefoxDriver driver;
+	
 	static FirefoxDriver driver;
+	
 	public static FirefoxDriver getDriver() {
 		
 		if(driver == null){
